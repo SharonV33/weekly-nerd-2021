@@ -1,0 +1,46 @@
+body {
+    font-family: Tahoma;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, lightgray, white, lightgray);
+    height: 100vh;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    width: 100vw;
+    height: 4em;
+    margin-top: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a,
+nav ul li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    background: linear-gradient(to right, blue 0%, transparent 5px);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    color: #000;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+li:hover {
+    background: linear-gradient(to right, blue 0%, lightblue 5px,transparent);
+}
+
+section {
+    width: 70vw;
+}
