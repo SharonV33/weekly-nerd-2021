@@ -8,27 +8,29 @@ body {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
+nav > ul {
     background-color: lightgray;
     align-items: center;
     width: 100vw;
     height: 4em;
     margin-top: 0;
 }
+ul {
+    display: flex;
+    list-style: none;
+}
 
-nav ul li {
+ul li {
     margin: 0 1em;
 }
 
-nav ul li a,
-nav ul li a:visited {
+ul li a,
+ul li a:visited {
     color: black;
     text-decoration: none;
 }
 
-li{
+ul li a {
     background: linear-gradient(to right, blue 0%, transparent 5px);
     background-repeat: repeat-x;
     background-size: 100%;
@@ -37,7 +39,7 @@ li{
     text-decoration: none;
 }
 
-li:hover {
+ul li a:hover {
     background: linear-gradient(to right, blue 0%, lightblue 5px,transparent);
 }
 
