@@ -1,9 +1,8 @@
 body {
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to bottom right, lightgray, white, lightgray);
     height: 100vh;
     margin: 0;
 }
@@ -18,6 +17,10 @@ nav > ul {
 ul {
     display: flex;
     list-style: none;
+}
+
+section ul {
+    flex-direction: column;
 }
 
 ul li {
